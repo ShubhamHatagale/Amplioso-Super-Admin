@@ -1,0 +1,117 @@
+i{
+    cursor: pointer;
+}
+.logo_login{
+    width: 25%;
+    margin-top: 2%;
+}
+.btn {
+    border-radius: 0px !important;
+}
+/*left Menu Font -size*/
+.MuiTypography-body1{
+    font-size: 16px !important;
+}
+.MuiTableCell-root {
+    padding: 3px !important;
+}
+.MuiAppBar-colorPrimary {
+/* background-color: #748ad0 !important ; */
+}
+.MuiToolbar-gutters{
+    padding-left: 5px !important;
+}
+#main{
+    min-height: 499px !important;
+}
+@media only screen and (min-width: 993px){
+#main {
+    padding-left: 0px !important;
+}
+footer {
+    padding-left: 0px !important;
+}
+}
+.makeStyles-container-13 {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+@media (min-width: 600px)
+{
+.MuiContainer-root {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+}
+.makeStyles-container-30 {
+    padding-bottom: 0px !important;
+}
+.MuiTypography-displayBlock {
+ color: rgba(0, 0, 0, 0.54);
+}
+.MuiSvgIcon-root {
+color: rgba(0, 0, 0, 0.54);
+}
+.makeStyles-container-32 {
+    /* padding-top: 32px; */
+    padding-bottom: 0px !important;
+}
+.MuiSvgIcon-root .icon{
+    
+    font-size: 1rem;
+}
+.logo{
+    height: 35px;
+    margin: 5px;
+}
+.logo1{
+    height: 40px;
+    width: 150px;
+    margin: 5px;
+}
+.logopadding{
+    padding: 12px;
+}
+.logo_close
+{
+cursor: pointer;
+}
+.MuiBox-root-33 {
+    padding-top: 0px !important;
+}
+.MuiInput-underline:after {
+border: none !important;
+}
+.MuiInput-underline:before {
+border: none !important;
+}
+.MuiGrid-spacing-xs-3 {
+    width: calc(100% + 0px) !important;
+    margin: 0px !important;
+}
+.MuiPaper-elevation2 {
+    box-shadow: none !important;
+}
+.card{
+    box-shadow: none !important;
+}
+.button:focus {
+    background-color:none !important;
+}
+.MuiIconButton-root {
+    padding: 5px !important;
+}
+#toast-container {
+    top: auto !important;
+    right: auto !important;
+    bottom: 80%;
+    left:40%;  
+    
+  }
+  .MuiCircularProgress-colorPrimary {
+    color: #748ad0 !important;
+}
+.MuiCircularProgress-root { 
+    left: 53%; 
+    position: absolute; 
+}

@@ -1,0 +1,40 @@
+/* CSS Document */
+
+.inner-content{}
+.inner-content h1{ font-size:20px; color:#262626; text-transform:uppercase; font-weight:600; margin-bottom:20px}
+.inner-breadcrumb a {
+    color:#000;
+}
+
+.inner-breadcrumb a:first-child:before {
+    display: none;
+}
+
+.inner-breadcrumb a:before {
+    font-family: 'Material Icons';
+    font-size:18px;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    margin: 0 10px 0 8px;
+    content: '\E5CC';
+    vertical-align: bottom;
+    color:#748ad0;
+    -webkit-font-smoothing: antialiased;line-height: 22px;
+}
+
+.pad-l-0{ padding-left:0 !important; margin:0}
+
+.main-screen{ background:#fff; padding:30px !important;margin-top: 60px;}
+.main-screen .btn-large{ background:#748ad0; font-size:17px;box-shadow: none; border-radius: 0;}
+input:not([type]), input[type=date]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=email]:not(.browser-default), input[type=number]:not(.browser-default), input[type=password]:not(.browser-default), input[type=search]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=text]:not(.browser-default), input[type=time]:not(.browser-default), input[type=url]:not(.browser-default), textarea.materialize-textarea{border: solid 2px #c9d4fa;}
+input:not([type]):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){border-bottom: 1px solid #748ad0;    box-shadow: 0 1px 0 0 #748ad0;}
+.input-field.col label {left: 1.75rem;font-weight: 500; font-size: 15px;}
+.input-field>label:not(.label-icon).active{transform: translateY(-23px) scale(.8);}
+.file-field .btn, .file-field .btn-large, .file-field .btn-small{background: #748ad0;border-radius:0; box-shadow: none; line-height: 49px; height: 49px; position: relative; left: -14px;}
+.select-wrapper+label { position: absolute;top: -15px;}
+.select-wrapper{ margin-top:30px}
+input[type=text]:not(.browser-default){ padding-left:15px}
+
+.pad-r{padding-right: 50px !important;}
+.pad-l5{padding-left: 5px !important;}
