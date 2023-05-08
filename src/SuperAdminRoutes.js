@@ -46,7 +46,7 @@ import ListCountries from "./pages/Super_Admin/Countries/ListCountries";
 import LIstFeedbackFrequency from "./pages/Super_Admin/Feedback_Frequencies/ListFeedbackFrequency";
 import ListYearOfExperience from "./pages/Super_Admin/Year_Of_Experience/ListYearOfExperience";
 import { useLocation } from "react-router-dom";
-
+// import "/home/ "
 const SuperAdminRouting = () => {
     const history = useHistory();
     const location = useLocation();
@@ -68,7 +68,8 @@ const SuperAdminRouting = () => {
     return (
         <Switch>
             <Route exact path="/login" component={Login}>
-            </Route>
+            {/* <Route exact path="/" component={Login}> */}
+            </Route> 
             <Route path="/forgot-password" component={ForgotPassword}>
             </Route>
             <Route path="/user/reset-password/:token" component={ResetPassword}>

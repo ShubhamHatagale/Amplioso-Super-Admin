@@ -13,8 +13,9 @@ function App() {
     //   </BrowserRouter>
     // </UserContext.Provider>
     // </div>
-    <BrowserRouter basename={'/super-admin'}>
-      <SuperAdminRouting /> 
+    <BrowserRouter >
+      {/* <BrowserRouter basename={'/super-admin'}> */}
+      <SuperAdminRouting />  
     </BrowserRouter>
   );
 }

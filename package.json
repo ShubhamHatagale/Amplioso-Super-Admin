@@ -1,8 +1,8 @@
 {
-  "name": "amplioso", 
-  "version": "0.1.0", 
+  "name": "amplioso",
+  "version": "0.1.0",
   "private": true,
-  "homepage": "http://dev.amplioso.com/super-admin",  
+  "homepage": "http://dev.amplioso.com/",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
@@ -40,7 +40,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "BUILD_PATH='/home/shubham/buildFolders/amplioso_super' react-scripts build",
+    "build": "BUILD_PATH='/Users/shubhamhatagale/Projects/buildFolders/amplioso_super' react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
