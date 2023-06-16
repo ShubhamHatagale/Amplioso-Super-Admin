@@ -1,6 +1,6 @@
 
 export const GetAllRes = async (defValue) => {
-    const APIUrl = process.env.REACT_APP_Base_URL;
+    const APIUrl = process.env.REACT_APP_Base_URL_Backend;
     const Base_URL = process.env.Base_URL;
 
     console.log(process.env)
@@ -9,7 +9,7 @@ export const GetAllRes = async (defValue) => {
     myHeaders.append('Content-Type', 'multipart/form-data')
     myHeaders.append("Authorization", token);
     let res = await fetch(
-        `http://208.109.14.182:9000/masters/${defValue}`,
+        `${APIUrl}/masters/collect_feedback`,
         {
             method: "get",
             headers: myHeaders
